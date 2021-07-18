@@ -1,0 +1,83 @@
+* {
+  box-sizing: border-box;
+}
+a {
+  color: white;
+  text-decoration: none;
+}
+.niraj {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+header {
+  background: blue;
+  color: white;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+ul {
+  padding-inline-start: 0px;
+}
+ul li {
+  list-style: none;
+  margin-right: 0.7em;
+}
+nav ul {
+  display: flex;
+  flex-direction: row;
+}
+
+.main-page {
+  display: flex;
+  justify-content: space-between;
+}
+section {
+  flex: 2;
+}
+
+.title {
+  font-size: 2rem;
+  font-weight: bolder;
+}
+article {
+  background: cyan;
+  padding: 1rem;
+  margin: 1rem;
+  border-radius: 5px;
+  justify-content: center;
+}
+article small,
+p {
+  position: relative;
+  left: 1rem;
+}
+aside {
+  display: flex;
+  background: grey;
+  flex: 1;
+  margin-top: 1rem;
+  padding: 1rem;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+footer {
+  background: black;
+  color: white;
+}
+
+.info {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.copy-right {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+}
